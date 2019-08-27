@@ -18,8 +18,7 @@ RUN apt-get install -y python3-pip
 
 # add requirements.txt, written this way to gracefully ignore a missing file
 COPY . .
-RUN ([ -f requirements.txt ] \
-    && pip3 install --no-cache-dir jupyter jupyterlab
+RUN pip3 install --no-cache-dir jupyter jupyterlab
 RUN pip3 install jupyterthemes
 USER root
 
