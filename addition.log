@@ -1,0 +1,32 @@
+ago 27, 2019 4:20:11 PM core.setup.Setup setupLogger
+INFORMAZIONI: Log started
+ago 27, 2019 4:20:11 PM core.setup.Setup setupParser
+INFORMAZIONI: Parsing tree creation started
+ago 27, 2019 4:20:11 PM core.setup.Setup setupParser
+INFORMAZIONI: Parsing tree creation concluded
+ago 27, 2019 4:20:11 PM core.setup.Main syntaxAnalysis
+INFORMAZIONI: Syntax visitor started
+ago 27, 2019 4:20:11 PM core.setup.Main syntaxAnalysis
+INFORMAZIONI: Syntax visitor completed
+ago 27, 2019 4:20:11 PM core.setup.Setup setupGraphBuilder
+INFORMAZIONI: Jgraph translation from parsetree started
+ago 27, 2019 4:20:11 PM core.setup.Setup setupGraphBuilder
+INFORMAZIONI: Jgraph translation from parsetree completed.
+ago 27, 2019 4:20:11 PM core.setup.Main graphPrinting
+INFORMAZIONI: Launching graphviz printing...
+ago 27, 2019 4:20:11 PM core.graphs.visualization.PrintModel run
+INFORMAZIONI: Model drawing started
+ago 27, 2019 4:20:11 PM core.graphs.visualization.PrintReaction run
+INFORMAZIONI: Graphviz reactions drawing started
+ago 27, 2019 4:20:11 PM core.graphs.visualization.PrintReaction run
+INFORMAZIONI: Graphviz reactions drawing started
+ago 27, 2019 4:20:11 PM core.modelcheckers.Bigmc execute
+INFORMAZIONI: Executing bigmc commands
+ago 27, 2019 4:20:11 PM core.modelcheckers.Bigmc execute
+INFORMAZIONI: Waiting for bigmc process..
+ago 27, 2019 4:20:12 PM core.graphs.TransitionDotImporter processTransition
+INFORMAZIONI: .dot transition file correctly translated to jgraph model
+ago 27, 2019 4:20:12 PM core.graphs.visualization.PrintTransition run
+INFORMAZIONI: Graphviz transition drawing started
+ago 27, 2019 4:20:12 PM core.setup.Setup closeLogger
+INFORMAZIONI: Logging complete

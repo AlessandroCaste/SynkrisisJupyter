@@ -16,7 +16,6 @@ RUN apt-get update \
 && apt-get install -y g++  \
 && apt-get install -y python3-pip 
 
-# add requirements.txt, written this way to gracefully ignore a missing file
 COPY . .
 RUN pip3 install --no-cache-dir jupyter jupyterlab
 RUN pip3 install jupyterthemes
