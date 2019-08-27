@@ -59,11 +59,11 @@ WORKDIR $HOME
 CMD ["jupyter", "notebook", "--ip", "0.0.0.0"]
 
 # PRISM installation
-RUN cd lib/prism-4.5-linux64 \ 
-   && ./install.sh
+#RUN cd lib/prism-4.5-linux64 \ 
+ #  && ./install.sh
 
-RUN cd lib/spot-2.8.1 \ 
-    && ./configure --prefix ~/spot \ 
-    && make \
-    && make install \
-    && cd
+#RUN cd lib/spot-2.8.1 \ 
+ #   && ./configure --prefix ~/spot \ 
+  #  && make \
+   # && make install \
+    #&& cd
