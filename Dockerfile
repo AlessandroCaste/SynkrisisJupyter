@@ -29,6 +29,10 @@ RUN cd bigmc \
     && make \
     && make install
 
+# Download Latest Synkrisis Release
+RUN curl -L https://www.github.com/AlessandroCaste/Synkrisis/releases/latest/download/Synkrisis.jar > Synkrisis.jar
+
+
 # Set up the user environment
 
 ENV NB_USER jovyan
