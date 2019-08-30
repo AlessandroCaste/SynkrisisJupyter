@@ -29,9 +29,6 @@ RUN cd bigmc \
     && make \
     && make install
 
-# Download Latest Synkrisis Release
-RUN curl -L https://www.github.com/AlessandroCaste/Synkrisis/releases/latest/download/Synkrisis.jar > Synkrisis.jar
-
 
 # Set up the user environment
 
@@ -61,6 +58,11 @@ WORKDIR $HOME
 CMD ["jupyter", "notebook", "--ip", "0.0.0.0"]
 
 # PRISM installation
+
+# Download Latest Synkrisis Release
+RUN curl -L https://www.github.com/AlessandroCaste/Synkrisis/releases/latest/download/Synkrisis.jar > Synkrisis.jar
+
+
 RUN cd lib/prism-4.5-linux64 \ 
     && ./install.sh
 
