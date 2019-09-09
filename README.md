@@ -2,4 +2,4 @@
 
 # Synkrisis Jupyter Notebook
 This is the Jupyter Notebook front-end for the Synkrisis toolchain. It provides all Synkrisis functionalities while making model visualization intuitive.
-Synkrisis execution runs inside a docker-ized debian environment which also features Spot and PRISM external model checkers.
+Synkrisis execution runs inside a dockerized debian environment which also features Spot and PRISM external model checkers.
